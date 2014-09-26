@@ -1,0 +1,80 @@
+<%= form_for @rose do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :flower_color_id %><br />
+    <%= f.number_field :flower_color_id %>
+  </p>
+  <p>
+    <%= f.label :flower_color_desc %><br />
+    <%= f.text_field :flower_color_desc %>
+  </p>
+  <p>
+    <%= f.label :synonims %><br />
+    <%= f.text_field :synonims %>
+  </p>
+  <p>
+    <%= f.label :milddew_imm_id %><br />
+    <%= f.number_field :milddew_imm_id %>
+  </p>
+  <p>
+    <%= f.label :leaves_color %><br />
+    <%= f.text_field :leaves_color %>
+  </p>
+  <p>
+    <%= f.label :leaf_spot_imm_id %><br />
+    <%= f.number_field :leaf_spot_imm_id %>
+  </p>
+  <p>
+    <%= f.label :fragrance_id %><br />
+    <%= f.number_field :fragrance_id %>
+  </p>
+  <p>
+    <%= f.label :height_id %><br />
+    <%= f.number_field :height_id %>
+  </p>
+  <p>
+    <%= f.label :height_text %><br />
+    <%= f.text_field :height_text %>
+  </p>
+  <p>
+    <%= f.label :freeze_imm_id %><br />
+    <%= f.number_field :freeze_imm_id %>
+  </p>
+  <p>
+    <%= f.label :type_id %><br />
+    <%= f.number_field :type_id %>
+  </p>
+  <p>
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+  </p>
+  <p>
+    <%= f.label :origin %><br />
+    <%= f.text_field :origin %>
+  </p>
+  <p>
+    <%= f.label :ADR %><br />
+    <%= f.check_box :ADR %>
+  </p>
+  <p>
+    <%= f.label :flower_shape %><br />
+    <%= f.text_field :flower_shape %>
+  </p>
+  <p>
+    <%= f.label :cultivation %><br />
+    <%= f.text_field :cultivation %>
+  </p>
+  <p>
+    <%= f.label :remarks %><br />
+    <%= f.text_field :remarks %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>
